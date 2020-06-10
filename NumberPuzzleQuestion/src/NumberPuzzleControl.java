@@ -20,8 +20,8 @@ abstract class NumberPuzzleControl {
 	abstract public String getWinnerMessage();
 	abstract public boolean checkForWinner(Button[] buttons);
 	final protected int getRandomNumber() {
-		double random = Math.random() * 100;
-		int randInt = (int) (random);
+		double random = Math.random() * 15;
+		int randInt = (int) (random)+1;
 		return randInt;
 	}
 	final protected void swapButton(Button emptyButton,Button clicked)
