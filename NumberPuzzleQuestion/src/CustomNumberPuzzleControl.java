@@ -61,11 +61,11 @@ class CustomNumberPuzzleControl extends NumberPuzzleControl {
 		int arr[] = new int[15];
 		HashSet<Integer> hs=new  HashSet<Integer>();
 		for(int i=0;i<arr.length;i++) {
-			/*int a = getRandomNumber();
+		int a = getRandomNumber();
 			while(hs.contains(a))
 				a=getRandomNumber();
-			hs.add(a);*/
-			arr[i]=i+1;
+			hs.add(a);
+			arr[i]=a;
 		}
 		return arr;
 	}
